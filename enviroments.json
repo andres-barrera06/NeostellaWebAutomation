@@ -1,0 +1,6 @@
+{
+    "enviroments": {
+        "dev": "https://ca.dev.talent.com/",
+        "prod": "https://co.talent.com/"
+    }
+}

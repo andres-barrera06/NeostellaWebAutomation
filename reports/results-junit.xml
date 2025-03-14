@@ -1,0 +1,19 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="1" errors="0" time="110.67156000000239">
+<testsuite name="tests/Serp/pagination.tests.spec.ts" timestamp="2025-03-14T07:11:59.769Z" hostname="" tests="2" failures="0" skipped="1" time="4.664" errors="0">
+<testcase name="TS | Pagination › TC | Pagination in Desktop" classname="tests/Serp/pagination.tests.spec.ts" time="4.664">
+<system-out>
+<![CDATA[
+▶️  TC | Pagination in Desktop starting:
+
+[[ATTACHMENT|test-results/tests-Serp-pagination.tests-TS-Pagination-TC-Pagination-in-Desktop/test-finished-1.png]]
+
+[[ATTACHMENT|test-results/tests-Serp-pagination.tests-TS-Pagination-TC-Pagination-in-Desktop/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TS | Pagination › TC | Pagination in Mobile" classname="tests/Serp/pagination.tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>

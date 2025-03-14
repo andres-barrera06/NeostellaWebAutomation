@@ -1,0 +1,25 @@
+{
+  "name": "playwright-poo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "all": "playwright test",
+    "v1": "playwright test ./tests/v1/",
+    "v1-1": "playwright test ./tests/v1-1/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.30.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.1",
+    "playwright": "^1.32.3",
+    "qs": "^6.11.1"
+    
+  }
+}
+
+

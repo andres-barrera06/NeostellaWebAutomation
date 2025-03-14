@@ -1,0 +1,34 @@
+name: Playwright Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container:
+      image: node:18.16.0-bullseye
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          cd NeostellaWebAutomation
+          npm install
+          npx playwright install
+          npx playwright install-deps
+
+      - name: Run Playwright tests
+        run: npx playwright test Serp/filters.tests.spec.ts
+        working-directory: NeostellaWebAutomation
+
+      - name: Save test reports as artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: junit-report
+          path: NeostellaWebAutomation/reports/results-junit.xml
+          retention-days: 7

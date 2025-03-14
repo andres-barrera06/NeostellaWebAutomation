@@ -1,0 +1,116 @@
+{
+  "jobTitle": {
+    "developer": "Developer Node JS",
+    "Sales": "Sales Representative"
+  },
+  "location": {
+    "city": "Miami"
+  },
+  "emails": {
+    "emailTest1": "nuhuqoko@clout.wiki",
+    "emailTest2": "automatictest646@gmail.com",
+    "emailTest3": "test1@gmail.com",
+    "emailsTest4": "test2@gmail.com",
+    "emailsTest5": "testqatalent@gmail.com",
+    "emailsTest6": "andres.barrera@talent.com",
+    "defaultEmailOtp": "testqatalent@gmail.com",
+    "emailPasswordOtp": "testqatalent+password@gmail.com",
+    "emailSendTemplate171": "testqatalent+templateList171@gmail.com",
+    "emailSendTemplate315": "testqatalent+templateList315@gmail.com",
+    "emailTestCampaign": "nicholas.gooding@talent.com"
+  },
+  "passwords": {
+    "pswTest1": "test123!",
+    "pswTest2": "Test12345!",
+    "pswTest3": "yosoyelmejor123",
+    "pswTest4": "Test123!"
+  },
+  "idSponsored": {
+    "id": "00a987e8f4"
+  },
+  "ask": {
+    "firstName": "Test",
+    "lastName": "Automation"
+  },
+  "talentLinks": {
+    "serpCA": "https://dev-ca.talent.com/jobs",
+    "serpUSA": "https://dev-www.talent.com/jobs",
+    "countriesExpansion": [
+      "https://ca.talent.com/jobs",
+      "https://www.talent.com/jobs",
+      "https://de.talent.com/jobs",
+      "https://uk.talent.com/jobs",
+      "https://fr.talent.com/jobs",
+      "https://it.talent.com/jobs",
+      "https://nl.talent.com/jobs",
+      "https://ch.talent.com/jobs",
+      "https://in.talent.com/jobs",
+      "https://be.talent.com/jobs"
+
+    ],
+    "countriesChangeLanguage": [
+      "https://ca.talent.com/jobs",
+      "https://www.talent.com/jobs",
+      "https://ch.talent.com/jobs",
+      "https://be.talent.com/jobs"
+    ],
+    "timeout": "500000",
+    "jobDescription": "https://dev-www.talent.com/view?id=144a4d4268&context=serp",
+    "template": "https://dev-www.talent.com/private/tools/mailer/template-list.php",
+    "scanidDataIn": "https://talent.com/private/tools/content/scraper/spiderCodeTool.php?scanid=262728",
+    "generalScanIdDataIn": "https://talent.com/private/tools/content/scraper/spiderCodeTool.php?scanid=",
+    "campaign": "https://talent003-dev-ca.talent.com/private/tools/salesModule/page-campaign-list.php"
+  },
+  "device": {
+    "desktop": "Desktop Chrome",
+    "mobile": "Pixel 5"
+  },
+  "apiIP": {
+    "link": "http://ip-api.com/json"
+  },
+  "spiderCode": {
+    "scanids": [
+      "263885",
+      "263886",
+      "263887",
+      "263888",
+      "263889",
+      "263890",
+      "263891",
+      "263892",
+      "263893",
+      "263894",
+      "263895",
+      "263896",
+      "263896",
+      "263897",
+      "263898",
+      "263898",
+      "263899",
+      "263900",
+      "263901",
+      "262728",
+      "263902",
+      "263903",
+      "263884"
+    ],
+    "step": "extract",
+    "insertion_code": "(function() {\n    const out = {};\n    let html_jobs = [\n        'Baker',\n        'Kitchen Team Member',\n        'Cake',\n        'Developer',\n        'Lawyer',\n        'Astronaut',\n        'Detective',\n        'Butcher',\n        'Cashier',\n        'Electrician'\n    ];\n    let location = [\n        'Lititz, PA',\n        'California, US',\n        'Ottawa, CA',\n        'Minnesota, US',\n        'Connecticut, US',\n        'Houston, US',\n        'Charlotte, US',\n        'Florida, US',\n        'Kansas, US',\n        'Tampa, US'\n    ];\n    let url = [\n        'https://careers-skh.icims.com/jobs/5706/kitchen-team-member/job',\n        'https://careers-skh.icims.com/jobs/5696/cake-decorator/job',\n        'https://careers-skh.icims.com/jobs/5695/baker/job',\n        'https://careers-skh.icims.com/jobs/5694/developer/job',\n        'https://careers-skh.icims.com/jobs/5693/lawyer/job',\n        'https://careers-skh.icims.com/jobs/5692/astronaut/job',\n        'https://careers-skh.icims.com/jobs/5691/detective/job',\n        'https://careers-skh.icims.com/jobs/5690/butcher/job',\n        'https://careers-skh.icims.com/jobs/5689/cashier/job',\n        'https://careers-skh.icims.com/jobs/5688/electrician/job'\n    ]\n    let desc = [\n        `Responsibilities\n        • Assists with the development and implementation of new product ideas.\n        • Decorates specialty cakes and works with seasonal cake events.\n        • Has knowledge of current inventories and ordering systems to assist with the ordering of supplies as needed.\n        • Mixes cakes, icing and other items as needed.\n        • Produces correct quantities of products, according to sales projections from week to week.\n        • Records best selling cakes and notifies management.\n\n        • Responsible for the proper production of bakery goods, in the absence of bakers, department asistants and/or management.\n        • Cleans department area, including equipment, containers, storage areas, aisles, and displaycases; keeping products and supplies well organized. .\n        • Operates price scale with knowledge of current prices. Prices or changes price tags on merchandise referring to price list and in coordination with scan department. \n        • Receives, opens, and unpacks cartons and crates of merchandise, checking invoice against items received. Promptly clears floor of all restocking equipment and debris.\n        • Sets and signs displays of merchandise to attract customers and promote sales.\n        • Takes and processes customer orders according to customer request ensuring that product is ready on time.\n        • Takes inventory or examines merchandise on a regular basis, to identify items needing to be reordered or replenished. `,\n    ]\n    let jobs = [];\n    for (let x in html_jobs) {\n        if (typeof html_jobs[x] == \"function\") continue;\n        if (typeof html_jobs[x] == \"number\") continue;\n        let job = {};\n        let elem = html_jobs[x];\n        job.title = elem\n        job.source_location = location[x]\n        job.location = location[x]\n        job.url = url[x]\n        job.html = desc[0]\n        job.jobdesc = cleanHTML(job.html)\n        job.temp = 'Template_gupy';\n        jobs.push(job);\n    }\n    out[\"jobs\"] = jobs;\n\n    return out;\n})();",
+    "inactivation_code": "(function() {\n    const out = {};\n    const html_jobs = [\n        'Baker',\n        'Kitchen Team Member',\n        'Cake',\n        'Developer',\n        'Lawyer',\n        'Astronaut',\n        'Detective',\n        'Butcher',\n        'Cashier',\n        'Electrician'\n    ];\n    const location = [\n        'Lititz, PA',\n        'California, US',\n        'Ottawa, CA',\n        'Minnesota, US',\n        'Connecticut, US',\n        'Houston, US',\n        'Charlotte, US',\n        'Florida, US',\n        'Kansas, US',\n        'Tampa, US'\n    ];\n    let url = [\n        'https://careers-skh.icims.com/jobs/5706/kitchen-team-member/job',\n        'https://careers-skh.icims.com/jobs/5696/cake-decorator/job',\n        'https://careers-skh.icims.com/jobs/5695/baker/job',\n        'https://careers-skh.icims.com/jobs/5694/developer/job',\n        'https://careers-skh.icims.com/jobs/5693/lawyer/job',\n        'https://careers-skh.icims.com/jobs/5692/astronaut/job',\n        'https://careers-skh.icims.com/jobs/5691/detective/job',\n        'https://careers-skh.icims.com/jobs/5690/butcher/job',\n        'https://careers-skh.icims.com/jobs/5689/cashier/job',\n        'https://careers-skh.icims.com/jobs/5688/electrician/job'\n    ]\n    let desc = [\n        `Responsibilities\n        • Assists with the development and implementation of new product ideas.\n        • Decorates specialty cakes and works with seasonal cake events.\n        • Has knowledge of current inventories and ordering systems to assist with the ordering of supplies as needed.\n        • Mixes cakes, icing and other items as needed.\n        • Produces correct quantities of products, according to sales projections from week to week.\n        • Records best selling cakes and notifies management.\n\n        • Responsible for the proper production of bakery goods, in the absence of bakers, department asistants and/or management.\n        • Cleans department area, including equipment, containers, storage areas, aisles, and displaycases; keeping products and supplies well organized. .\n        • Operates price scale with knowledge of current prices. Prices or changes price tags on merchandise referring to price list and in coordination with scan department. \n        • Receives, opens, and unpacks cartons and crates of merchandise, checking invoice against items received. Promptly clears floor of all restocking equipment and debris.\n        • Sets and signs displays of merchandise to attract customers and promote sales.\n        • Takes and processes customer orders according to customer request ensuring that product is ready on time.\n        • Takes inventory or examines merchandise on a regular basis, to identify items needing to be reordered or replenished. `,\n    ]\n    let jobs = [];\n    for (let x in html_jobs) {\n        if (typeof html_jobs[x] == \"function\") continue;\n        if (typeof html_jobs[x] == \"number\") continue;\n        let job = {};\n        let elem = html_jobs[x];\n        job.title = elem\n        job.source_location = location[x]\n        job.location = location[x]\n        job.url = url[x]\n        job.html = desc[0]\n        job.jobdesc = cleanHTML(job.html)\n        job.temp = 'Template_gupy';\n        jobs.push(job);\n    }\n    for(i=0; i< jobs.length; i+=2){\n        jobs[i].dateposted_raw = '06/10/2022'\n    }\n    out[\"jobs\"] = jobs;\n    return out;\n})();",
+    "update_code": "(function() {\n    const out = {};\n    const html_jobs = [\n        'Baker',\n        'Kitchen Team Member',\n        'Cake',\n        'Developer',\n        'Lawyer',\n        'Astronaut',\n        'Detective',\n        'Butcher',\n        'Cashier',\n        'Electrician'\n    ];\n    const location = [\n        'Lititz, PA',\n        'California, US',\n        'Ottawa, CA',\n        'Minnesota, US',\n        'Connecticut, US',\n        'Houston, US',\n        'Charlotte, US',\n        'Florida, US',\n        'Kansas, US',\n        'Tampa, US'\n    ];\n    let url = [\n        'https://careers-skh.icims.com/jobs/5706/kitchen-team-member/job',\n        'https://careers-skh.icims.com/jobs/5696/cake-decorator/job',\n        'https://careers-skh.icims.com/jobs/5695/baker/job',\n        'https://careers-skh.icims.com/jobs/5694/developer/job',\n        'https://careers-skh.icims.com/jobs/5693/lawyer/job',\n        'https://careers-skh.icims.com/jobs/5692/astronaut/job',\n        'https://careers-skh.icims.com/jobs/5691/detective/job',\n        'https://careers-skh.icims.com/jobs/5690/butcher/job',\n        'https://careers-skh.icims.com/jobs/5689/cashier/job',\n        'https://careers-skh.icims.com/jobs/5688/electrician/job'\n    ]\n    let desc = [\n        `Responsibilities\n        • Assists with the development and implementation of new product ideas.\n        • Decorates specialty cakes and works with seasonal cake events.\n        • Has knowledge of current inventories and ordering systems to assist with the ordering of supplies as needed.\n        • Mixes cakes, icing and other items as needed.\n        • Produces correct quantities of products, according to sales projections from week to week.\n        • Records best selling cakes and notifies management.\n\n        • Responsible for the proper production of bakery goods, in the absence of bakers, department asistants and/or management.\n        • Cleans department area, including equipment, containers, storage areas, aisles, and displaycases; keeping products and supplies well organized. .\n        • Operates price scale with knowledge of current prices. Prices or changes price tags on merchandise referring to price list and in coordination with scan department. \n        • Receives, opens, and unpacks cartons and crates of merchandise, checking invoice against items received. Promptly clears floor of all restocking equipment and debris.\n        • Sets and signs displays of merchandise to attract customers and promote sales.\n        • Takes and processes customer orders according to customer request ensuring that product is ready on time.\n        • Takes inventory or examines merchandise on a regular basis, to identify items needing to be reordered or replenished. `,\n    ]\n    let jobs = [];\n    for (let x in html_jobs) {\n        if (typeof html_jobs[x] == \"function\") continue;\n        if (typeof html_jobs[x] == \"number\") continue;\n        let job = {};\n        let elem = html_jobs[x];\n        job.title = elem\n        job.source_location = location[x]\n        job.location = location[x]\n        job.url = url[x]\n        job.html = desc[0]\n        job.jobdesc = cleanHTML(job.html)\n        job.temp = `updated-temp`;\n        jobs.push(job);\n    }\n    out[\"jobs\"] = jobs;\n\n    return out;\n})();"
+  },
+  "campaignMultiSelectionStatus": {
+    "generalFilters": [
+      "active",
+      "limited_by_daily_pacing",
+      "limited_by_monthly_pacing",
+      "limited_by_daily_budget"
+    ],
+    "noCheckedLatelyFilter": [
+      "active",
+      "limited_by_daily_pacing",
+      "limited_by_monthly_pacing"
+    ]
+  }
+}
+

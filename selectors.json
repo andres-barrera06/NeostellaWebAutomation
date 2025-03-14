@@ -1,0 +1,12 @@
+{
+  "pagination": {
+    "nextButton": "nav > a:nth-child(3)",
+    "previousButton": "nav > a:nth-child(1) > svg > circle"
+  },
+  "filters": {
+    
+  },
+  "signIn": {
+    
+  }
+}
